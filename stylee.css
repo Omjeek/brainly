@@ -1,0 +1,116 @@
+
+:root {
+    --warnabg: #D9F0FF;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "ProximaNova","Helvetica","Arial",sans-serif;
+}
+
+.navbar{
+    background-color:var(--warnabg) ;
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center ;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.masuk{
+text-decoration: none;
+color: black;
+margin-right: 30px;
+font-weight: bold;
+font-size: 15px;
+}
+.pertanyaan{
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 50px;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.head-content{
+    background-color:var(--warnabg) ;
+    height: 500px;
+    width:100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    padding: 25px;
+}
+.head-content h1{
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+::placeholder{
+    font-size: 20px;
+
+}
+.search{
+    height: 100px;
+    width: 50%;
+    border-radius: 100px;
+    padding: 50px;
+    border: none;font-size: 20px;
+}
+.head-content p{
+    margin-bottom: 30px;
+}
+.head-content img{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 25%;
+}
+ul {
+    display :flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ccc;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.roll-bar {
+  padding: 0px;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
